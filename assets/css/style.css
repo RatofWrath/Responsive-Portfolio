@@ -56,6 +56,7 @@
     p{
         color: #777777;
         font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        line-height: 22px;
     }
 
     ul{
@@ -137,9 +138,61 @@
 
     #catPic{
         float: left;
+        padding-right: 5px;
     }
 
-    #secondP{
-        clear: both;
+    @media screen and (max-width: 980px){
+        .navigationBar{
+            margin-right: 5%
+        }
+
+        content{
+           width: 60%;
+           margin-left: 5%;
+        }
+
+        .myNameBox{
+            margin-left: 5%;
+        }
+    }
+
+    @media screen and (max-width: 768px){
+        .navigationBar{
+            margin-right: 5%
+        }
+
+        content{
+           width: 90%;
+           margin-left: 5%;
+        }
+
+        .myNameBox{
+            margin-left: 5%;
+        }
+    }
+
+    @media screen and (max-width: 640px){
+        content{
+           margin-top: 130px;
+        }
+
+        .navigationBar{
+            float: none;
+            clear: both;
+            margin-left: 30%;
+            text-align: center;
+            display: inline-block;
+        }
+
+        #catPic{
+            float: none;
+            width: 90%;
+            padding: 5px;
+        }
+
+        .myNameBox{
+            width: 100%;
+            margin-left: 0;
+        }
     }
 </style>
