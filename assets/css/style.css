@@ -154,6 +154,14 @@
         .myNameBox{
             margin-left: 5%;
         }
+
+        input[type=text]{
+            width: 100%;
+        }
+
+        textArea{
+            width: 100%;
+        }
     }
 
     @media screen and (max-width: 768px){
@@ -169,6 +177,14 @@
         .myNameBox{
             margin-left: 5%;
         }
+
+        input[type=text]{
+            width: 100%;
+        }
+
+        textArea{
+            width: 100%;
+        }
     }
 
     @media screen and (max-width: 640px){
@@ -179,9 +195,10 @@
         .navigationBar{
             float: none;
             clear: both;
-            margin-left: 30%;
+            width: 100%;
             text-align: center;
             display: inline-block;
+            margin: 0 auto;
         }
 
         #catPic{
@@ -193,6 +210,14 @@
         .myNameBox{
             width: 100%;
             margin-left: 0;
+        }
+
+        input[type=text]{
+            width: 100%;
+        }
+
+        textArea{
+            width: 100%;
         }
     }
 </style>
