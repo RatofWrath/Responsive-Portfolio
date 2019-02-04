@@ -204,7 +204,7 @@
 
         #catPic{
             float: none;
-            width: 90%;
+            width: 525px;
             padding: 5px;
         }
 
@@ -223,6 +223,16 @@
 
         .row{
             clear: both;
+            margin-bottom: 15px;
+        }
+
+        #phoneSizeImage{
+            width: 525px;
+        }
+
+        .rowBar{
+            width: 505px;
+            bottom: 0;
         }
     }
 </style>
